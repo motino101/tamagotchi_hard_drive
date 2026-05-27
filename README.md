@@ -1,6 +1,6 @@
 # Bit the Tamagotchi USB Drive
 
-A Tamagotchi that lives on a Raspberry Pi Pico and reacts to files you give him.
+A Tamagotchi that lives on a Raspberry Pi Pico and reacts to files you give him.![[Main.00_00_02_07.Still001.jpg]]
 
 ## What You Need
 
@@ -32,6 +32,9 @@ Connect your ST7735 LCD screen to the Pico:
 
 **Tip:** Double-check your connections before powering on. Wrong wiring can damage the screen.
 
+![Wiring diagram][to-do]
+![Completed setup][to-do]
+
 ### Step 1: Install MicroPython on your Pico
 
 1. Download MicroPython from [micropython.org](https://micropython.org/download/RPI_PICO/)
@@ -51,6 +54,8 @@ Connect your ST7735 LCD screen to the Pico:
 **How to upload:**
 - Right-click each file → "Upload to /"
 - For the art folder: create a folder called `art` on the Pico, then upload all `.bin` files into it
+
+![Thonny upload process][to-do]
 
 ### Step 3: Set Up the Watcher on Your Computer
 
@@ -106,6 +111,10 @@ to your specific port (e.g., `"/dev/cu.usbmodem11201"` on Mac or `"COM3"` on Win
 **Animations not working?**
 - Make sure all `.bin` files are in the `art/` folder on the Pico
 - Check that the file names match exactly (case-sensitive)
+
+## See Bit in Action
+
+![Bit reacting to files][to-do]
 
 ## Credits
 

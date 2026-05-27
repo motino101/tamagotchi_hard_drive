@@ -57,8 +57,6 @@ Connect your ST7735 LCD screen to the Pico:
 - Right-click each file → "Upload to /"
 - For the art folder: create a folder called `art` on the Pico, then upload all `.bin` files into it
 
-![Thonny upload process][to-do]
-
 ### Step 3: Set Up the Watcher on Your Computer
 
 1. Copy `watcher.py` to your Desktop (or anywhere on your computer)
@@ -113,10 +111,6 @@ to your specific port (e.g., `"/dev/cu.usbmodem11201"` on Mac or `"COM3"` on Win
 **Animations not working?**
 - Make sure all `.bin` files are in the `art/` folder on the Pico
 - Check that the file names match exactly (case-sensitive)
-
-## See Bit in Action
-
-![Bit reacting to files][to-do]
 
 ## Credits
 

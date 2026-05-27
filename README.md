@@ -1,6 +1,8 @@
 # Bit the Tamagotchi USB Drive
 
-A Tamagotchi that lives on a Raspberry Pi Pico and reacts to files you give him.![[Main.00_00_02_07.Still001.jpg]]
+![Bit the Tamagotchi](https://i.imgur.com/TLTY7U9.jpeg)
+
+A Tamagotchi that lives on a Raspberry Pi Pico and reacts to files you give him.
 
 ## What You Need
 

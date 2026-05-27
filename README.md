@@ -31,11 +31,8 @@ Connect your ST7735 LCD screen to the Pico:
 | CS      | GP22     | Chip Select |
 | RST     | GP21     | Reset |
 | DC      | GP26     | Data/Command |
-
+![Wiring](https://i.imgur.com/OuPi3JH.png)![](https://i.imgur.com/i1pl3hi.png)
 **Tip:** Double-check your connections before powering on. Wrong wiring can damage the screen.
-
-![Wiring diagram][to-do]
-![Completed setup][to-do]
 
 ### Step 1: Install MicroPython on your Pico
 
@@ -111,6 +108,15 @@ to your specific port (e.g., `"/dev/cu.usbmodem11201"` on Mac or `"COM3"` on Win
 **Animations not working?**
 - Make sure all `.bin` files are in the `art/` folder on the Pico
 - Check that the file names match exactly (case-sensitive)
+
+## Making the Case (Optional)
+
+If you want to build your own custom case like the original:
+
+1. **Design in Womp** - Use [Womp](https://womp.com) to CAD out your case design
+2. **Add pegs and joints** - Make sure parts fit together properly
+3. **Order a 3D print or resin mold** - Get your design printed (resin recommended for smooth finish)
+4. **Personalize it** - Add UV resin for an aquarium effect, or customize however you like
 
 ## Credits
 

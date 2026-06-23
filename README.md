@@ -32,6 +32,7 @@ Connect your ST7735 LCD screen to the Pico:
 | CS      | GP22     | Chip Select |
 | RST     | GP21     | Reset |
 | DC      | GP26     | Data/Command |
+
 ![Wiring](https://i.imgur.com/OuPi3JH.png)![](https://i.imgur.com/i1pl3hi.png)
 **Tip:** Double-check your connections before powering on. Wrong wiring can damage the screen.
 

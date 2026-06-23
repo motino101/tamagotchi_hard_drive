@@ -123,4 +123,4 @@ If you want to build your own custom case like the original:
 
 ## Credits
 
-Built with love. Sometimes it feels like he loves me back.
+Built with love.

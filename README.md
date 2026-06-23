@@ -11,6 +11,8 @@ A Tamagotchi that lives on a Raspberry Pi Pico and reacts to files you give him.
 - ST7735 LCD screen (128x128)
 - USB cable
 - Jumper wires
+- USB A Flash drive
+- [JESSINIE XL334P4 USB-C Hub](https://www.amazon.com/dp/B0FFS8FL81)
 
 **Software:**
 - [Thonny IDE](https://thonny.org/) (for uploading code to Pico)
@@ -21,7 +23,6 @@ A Tamagotchi that lives on a Raspberry Pi Pico and reacts to files you give him.
 ### Step 0: Wire Up the Hardware
 
 Connect your ST7735 LCD screen to the Pico:
-
 | LCD Pin | Pico Pin | Purpose |
 |---------|----------|---------|
 | VCC     | 3.3V     | Power   |
@@ -56,9 +57,11 @@ Connect your ST7735 LCD screen to the Pico:
 
 ### Step 3: Set Up the Watcher on Your Computer
 
-1. Copy `watcher.py` to your Desktop (or anywhere on your computer)
-2. Open Terminal
-3. Install the required package:
+1. Connect the pico and USB drive to the USB breakout board, which you plug into your computer.
+2. Rename the flash drive (double click on Mac) to "hey im bit"
+3. Copy `watcher.py` to your Desktop (or anywhere on your computer)
+4. Open Terminal
+5. Install the required package:
    ```bash
    pip3 install pyserial
    ```
@@ -83,7 +86,6 @@ to your specific port (e.g., `"/dev/cu.usbmodem11201"` on Mac or `"COM3"` on Win
 
 ## How It Works
 
-- The Pico shows up as a USB drive called "hey im bit"
 - When you add files to the drive, Bit gets fatter and happier
 - When you delete files, Bit gets sad
 - The watcher script monitors the drive and tells the Pico how to react via serial commands
